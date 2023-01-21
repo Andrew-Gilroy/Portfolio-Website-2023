@@ -1,0 +1,52 @@
+.project_details_list {
+    grid-column: 1 / span 2;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #eaeaea;
+    font-size: 1.7rem;
+    line-height: calc(1.5rem * 1.618);
+    font-weight: 400;
+    -webkit-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 3rem;
+    column-gap: 3rem;
+    margin: 2rem 0;
+    padding: 2rem;
+    padding-left: 3.5rem;
+    list-style-type: square;
+    outline: 0.18rem solid #787878;
+    outline-offset: -1.0rem;
+    background-color: #fcfcfc;
+    background-color: black;
+    -webkit-box-shadow: 0px 4px 15px -2px #afafaf;
+    box-shadow: 0px 6px 4px -3px grey;
+    border-radius: 4px;
+}
+
+.project_details_list li {
+    padding: 0.4rem 0;
+}
+
+.project_details_image_myMento_phone {
+    display: inline-block;
+    width: 48%;
+    margin-bottom: 2rem;
+    cursor: zoom-in;
+}
+
+.iframe_wrapper {
+    grid-column: 1 / span 2;
+    width: 100%;
+    padding-top: 56.25%;
+    /*16:9 aspect ratio*/
+    overflow: hidden;
+    position: relative;
+}
+
+.iframe_wrapper iframe {
+    width: 100%;
+    position: absolute;
+    border: 0;
+    height: 100%;
+    left: 0;
+    top: 0;
+}

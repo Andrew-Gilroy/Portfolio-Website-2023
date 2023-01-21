@@ -1,0 +1,282 @@
+.project_flex_row {
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    flex-grow: 0;
+    flex-wrap: wrap;
+    min-height: 50rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    background-color: #ffffff;
+    margin: 2rem 1rem;
+    box-shadow: 0px 0.2rem 0.6rem rgba(2, 9, 60, 0.41);
+    outline: 0.35rem solid #f8f8f8;
+    outline-offset: -15px;
+}
+
+.project_image {
+    vertical-align: middle;
+    width: 100%;
+    max-width: 60rem;
+    -webkit-transition: all 1s ease-out 0s;
+    transition: all 1s ease-out 0s;
+}
+
+.project_image_drop_shadow {
+    -webkit-filter: drop-shadow(0 0.3rem 0.25rem #6c6c6c);
+    filter: drop-shadow(0 0.3rem 0.25rem #6c6c6c);
+}
+
+.project_title {
+    width: 100%;
+    font-family: 'Antonio', sans-serif;
+    letter-spacing: -0.3rem;
+    font-size: 5rem;
+    line-height: 6rem;
+    font-weight: normal;
+    text-align: left;
+    color: #22304E;
+    padding: 2.0rem 0 0rem 0;
+    margin: 0 0 0 -0.3rem;
+}
+
+.project_text_wrapper {
+    width: 50rem;
+    max-width: 600px;
+    padding: 0 4rem;
+    margin-bottom: 3rem;
+}
+
+.project_text {
+    width: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: calc(1.8rem * 1.618);
+    color: #282828;
+    text-align: left;
+    padding: 3rem 0 4rem 0rem;
+    margin: 0 0 0 0;
+}
+
+hr {
+    height: 0.4rem;
+    width: 40%;
+    text-align: left;
+    background-color: #fe3b1f;
+    border: 0;
+    margin: 1rem 0 0 0;
+    padding: -1.3rem 0 0rem 0rem;
+
+}
+
+.project_tag li {
+    font-family: sans-serif;
+    color: white;
+    font-weight: normal;
+    text-shadow: 0 0.1rem 0 rgba(0, 0, 0, .5);
+    display: inline-block;
+    border-radius: 0.4rem;
+    font-size: 1.2rem;
+    background-color: #fe3b1f;
+    padding: 0.4rem 0.9rem;
+    margin: 0.3rem 0.2rem 0 0;
+    box-shadow: 0 0.1rem 0rem #989696;
+}
+
+.project_page_image_link {
+    vertical-align: middle;
+    /* width & max added to prevent gatsby fluid image resulting in 0px -_- */
+    width: 100%;
+    max-width: 60rem;
+    -webkit-transition: all 0.6s ease-out 0s;
+    transition: all 0.6s ease-out 0s;
+}
+
+.project_page_image_link:link {
+    text-decoration: none;
+}
+
+.project_page_image_link:visited {
+    text-decoration: none;
+}
+
+.project_page_image_link:hover {
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+.project_page_image_link:active {
+    text-decoration: none;
+}
+
+.project_page_text_link {
+    -webkit-transition: all 0.6s ease-out 0s;
+    transition: all 0.6s ease-out 0s;
+}
+
+.project_page_text_link:link {
+    text-decoration: none;
+}
+
+.project_page_text_link:visited {
+    text-decoration: none;
+}
+
+.project_page_text_link:hover {
+    text-decoration: none;
+    color: #5491d4;
+    /*padding-left: 1rem;*/
+}
+
+.project_page_text_link:active {
+    text-decoration: none;
+}
+
+//////////////////////////////
+//////   MEDIA QUERIES   /////
+//////////////////////////////
+
+/* 1500px - breakpoint to prevent about image/text overlap */
+@media only screen and (max-width: 1500px) {
+    
+}
+
+/* 1300px - flexbox project images need this breakpoint to go 1 col layout*/
+@media only screen and (max-width: 1300px) {
+
+    .project_flex_row {
+        flex-direction: column;
+    }
+
+    .project_text_wrapper {
+        width: 50%;
+        margin: 1rem 0 5rem 0;
+    }
+    .project_image {
+        margin: 5rem auto 1rem auto;
+        //max-width: 50rem;
+    }
+
+    .project_page_text_link:hover {
+        padding-left: 0;
+    }
+
+}
+/*MQ for ABOUT list break to 1 col*/
+@media only screen and (max-width: 1230px) {
+
+}
+
+/*SPECIFIC DEVICE MQ'S*/
+
+/*## Device = Desktops ##Screen = 1281px to higher resolution desktops*/
+@media (min-width: 1281px) {
+
+}
+
+/*## Device = Laptops, Desktops ##Screen = B/w 1025px to 1280px*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+}
+
+/*## Device = Tablets, Ipads (portrait) ##Screen = B/w 768px to 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+    .project_flex_row {
+        padding: 0;
+    }
+    .project_text_wrapper {
+        width: 90%;
+        padding: 0 13%;
+        margin: 1rem auto 5rem auto;
+    }
+    
+    .project_image {
+        padding: 0 ;
+        margin: 5rem auto 0 auto;
+        vertical-align: middle;
+        /* testing */
+        width: 20%;
+        text-align: center;
+        //object-fit: contain;
+        //max-width: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .project_text {
+        max-width: 40rem;
+        padding: 2rem 0 3rem 0rem;
+    }
+
+}
+
+/*## Device = Tablets, Ipads (landscape) ##Screen = B/w 768px to 1024px */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+}
+
+/*## Device = Low Resolution Tablets, Mobiles (Landscape) ##Screen = B/w 481px to 767px*/
+@media (min-width: 481px) and (max-width: 767px) {
+    .project_flex_row {
+        flex-direction: column;
+    }
+
+    .project_text_wrapper {
+        width: 80%;
+        padding: 0 0;
+        margin: 2rem 0 5rem 0;
+    }
+    .project_image {
+        //width: 85%;
+        margin: 5rem auto 0 auto;
+        padding: 0 ;
+    }
+
+    .project_title {
+        letter-spacing: -0.2rem;
+        font-size: 3.5rem;
+        line-height: 4rem;
+        padding: 2.0rem 0 0rem 0;
+        margin: 0 0 0 -0.3rem;
+    }
+
+    .project_text {
+        padding: 1rem 0 4rem 0rem;
+        margin: 0 0 0 0;
+    }
+
+}
+
+
+@media (max-width: 767px) {
+
+}
+/*## Device = Most of the Smartphones Mobiles (Portrait) ##Screen = B/w 320px to 479px*/
+@media (min-width: 220px) and (max-width: 480px) {
+    .project_flex_row {
+        flex-direction: column;
+    }
+
+    .project_text_wrapper {
+        width: 80%;
+        padding: 0 0;
+        margin: 2rem 0 5rem 0;
+    }
+  
+    .project_tag li {
+        margin: 0.3rem 0.2rem 0 0;
+    }
+    .project_image {
+        //width: 85%;
+        margin: 5rem auto 0 auto;
+        padding: 0 ;
+    }
+    .project_title {
+        letter-spacing: -0.15rem;
+        font-size: 3rem;
+    }
+}

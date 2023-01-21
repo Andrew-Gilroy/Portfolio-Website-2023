@@ -1,0 +1,42 @@
+.facts_pallette_wrapper {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1/3;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 1rem 0 0 0;
+}
+
+.facts_brand_color_1 {
+    background-color: #0A1C2B;
+}
+
+.facts_brand_color_2 {
+    background-color: #70CEEA;
+}
+
+.facts_brand_color_3 {
+    background-color: #ffffff;
+    border: 1px solid #cbc7c7;
+}
+
+.facts_brand_color_4 {
+    background-color: #ffc700;
+}
+
+.facts_brand_color_1,
+.facts_brand_color_2,
+.facts_brand_color_3,
+.facts_brand_color_4 {
+    width: 24%;
+    height: 3rem;
+    border-radius: 0.5rem;
+}

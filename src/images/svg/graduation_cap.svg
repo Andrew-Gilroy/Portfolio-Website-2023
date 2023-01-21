@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="524" height="524" viewBox="0 0 524 524">
+  <defs>
+    <style>
+      .a, .c {
+        fill: none;
+      }
+
+      .b {
+        fill: #f40505;
+      }
+
+      .c {
+        stroke: #f2f2f2;
+        stroke-width: 15.493px;
+      }
+
+      .d {
+        clip-path: url(#a);
+      }
+
+      .e {
+        fill: #bd0303;
+      }
+
+      .f {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="a">
+      <circle class="a" cx="262" cy="262" r="245.935"/>
+    </clipPath>
+  </defs>
+  <title>graduation_cap</title>
+  <g>
+    <g>
+      <circle class="b" cx="262" cy="262" r="253.692"/>
+      <circle class="c" cx="262" cy="262" r="253.692"/>
+    </g>
+    <g class="d">
+      <polygon class="e" points="659.348 548.478 249.746 548.478 57.199 233 466.801 233 659.348 548.478"/>
+    </g>
+    <path class="f" d="M262,305.855,136,266.48V331.5S176.25,377,262,377s126-45.5,126-45.5V266.48Z"/>
+    <path class="f" d="M262,177.586,262,169l-2.444.764L82.23,225.178,57.2,233l25.031,7.822,177.326,55.414L262,297l2.444-.764L441.77,240.822,466.8,233l-25.031-7.822L264.444,169.764,262,169Z"/>
+    <g>
+      <rect class="f" x="433" y="238" width="3" height="68"/>
+      <circle class="f" cx="434.5" cy="309" r="6"/>
+      <path class="f" d="M434.5,310l-8.526,27s5.026,3,8.526,3,8.526-3,8.526-3Z"/>
+    </g>
+  </g>
+</svg>
