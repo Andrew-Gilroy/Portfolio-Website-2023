@@ -1,7 +1,7 @@
 //PLUGINS & DEPS
 import React from "react";
 import Layout from "../layouts/Layout.js";
-import SEO from "../components/seo";
+import Seo from "../components/seo";
 //import Helmet from "react-helmet"
 
 //COMPONENTS
@@ -21,7 +21,7 @@ const IndexPage = () => (
   
     <>  
         <Layout pageTitle="Home"/>
-        <SEO title="Home" />
+        <Seo title="Home" />
         <Hero/>
         <About/>
         <Projects/>

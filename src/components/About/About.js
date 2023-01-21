@@ -2,10 +2,10 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBuysellads } from '@fortawesome/free-brands-svg-icons';
 import { faUsers, faPencilAlt, faCode, faVideo, faThLarge, faBullhorn, faCameraRetro } from '@fortawesome/free-solid-svg-icons';
-import { StaticImage } from "gatsby-plugin-image";
+//import { StaticImage } from "gatsby-plugin-image";
 
 //IMAGE IMPORTS
-//import profile_image_cropped from "../../images/profile_picture/profile_image_cropped.png";
+import profile_image from "../../images/profile_picture/andrew_profile_image_cropped.png";
 import photoshop_ccSVG from "../../images/svgicons/photoshop-cc.svg";
 import illustrator_ccSVG from "../../images/svgicons/adobe-illustrator-cc.svg";
 import indesign_ccSVG from "../../images/svgicons/indesign-cc.svg";
@@ -31,8 +31,8 @@ const About = () => {
     <>
     <a href="/" id="about" className="hidden_A_link" aria-hidden="true"></a>
         <div className="about_grid_wrapper">
-            <StaticImage src="../../images/profile_picture/andrew_profile_image_cropped.png" alt="Andrew's Profile Image" className="about_profile_image--mobile" placeholder="blurred"/>
-            {/* <img src={profile_image} alt="Andrew's Profile Image" className="about_profile_image--mobile"></img> */}
+            {/* <StaticImage src="../../images/profile_picture/andrew_profile_image_cropped.png" alt="Andrew's Profile Image" className="about_profile_image--mobile" placeholder="blurred"/> */}
+            <img src={profile_image} alt="Andrew's Profile Image" className="about_profile_image--mobile"></img>
             <div className="about_text_wrapper">
                 <h2 className="about_title">ABOUT</h2>
                 <hr id="aboutHR"></hr>
