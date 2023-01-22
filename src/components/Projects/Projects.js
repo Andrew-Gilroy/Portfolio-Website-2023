@@ -25,7 +25,7 @@ const Projects = () => {
         const images = gsap.utils.toArray('.project_image');
         images.forEach(image => {
             gsap.from(image, { 
-                x: -200,
+                x: 0,
                 ease: "power4.out",
                 opacity: 0,
                 scrollTrigger: {
