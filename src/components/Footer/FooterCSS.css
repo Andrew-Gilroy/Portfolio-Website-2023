@@ -4,7 +4,6 @@ footer {
     height: 7rem;
     background-image: url(../../images/backgrounds/bg_01.png);
     background-size: 5px;
-    grid-column: 1/13;
     margin: 3rem 0 0 0;
     padding: 0 1rem;
     display: flex;
@@ -13,8 +12,8 @@ footer {
 }
 
 .footer_div_left {
-    justify-self: start;
     align-self: center;
+    width: 10.5rem;
 }
 
 .footer_div_mobile {
@@ -22,13 +21,10 @@ footer {
 }
 
 .footer_div_center {
-    justify-self: center;
     align-self: center;
-    /* margin-left: 7.5rem; */
 }
 
 .footer_div_right {
-    justify-self: end;
     align-self: center;
 }
 
@@ -85,6 +81,7 @@ footer {
     color: #fe3b1f;
     padding: 5px 8px;
     display: inline;
+    
 }
 
 
@@ -99,6 +96,7 @@ footer {
 @media only screen and (max-width: 1300px) {
 
 }
+
 /*MQ for ABOUT list break to 1 col*/
 @media only screen and (max-width: 1230px) {
 
@@ -119,9 +117,6 @@ footer {
 /*## Device = Tablets, Ipads (portrait) ##Screen = B/w 768px to 1024px */
 @media (min-width: 768px) and (max-width: 1024px) {
  
-    .footer_div_center {
-        display: none;
-    }
 }
 
 /*## Device = Tablets, Ipads (landscape) ##Screen = B/w 768px to 1024px */
@@ -135,7 +130,10 @@ footer {
     footer {
         height: 8rem;
     }
-
+    .footer_div_center {
+        display: none;
+    }
+    
     .footer_icon_left {
         height: 5rem;
     }
@@ -143,8 +141,6 @@ footer {
     .footer_icon_right {
         height: 5rem;
     }
-
-    
 }
 
 /*## Hamburger mobile menu display */

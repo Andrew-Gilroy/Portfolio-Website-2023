@@ -51,7 +51,7 @@ const Projects = () => {
         <div className="project_text_wrapper" >
         <Link to="/project_cupboard/" className="project_page_text_link project_title">Cupboard Combiner</Link>
             <hr></hr>
-            <p className="project_text">Cupboard Combiner is a React web app that generates random meals based on what you have left in the cupboard.</p>
+            <p className="project_text">Cupboard Combiner is a React.js web app that generates random meals based on the contents of your cupboard.</p>
             <ul className="project_tag">
                 <li>React</li>
                 <li>Javascript</li>
@@ -88,7 +88,7 @@ const Projects = () => {
         <div className="project_text_wrapper" >
         <Link to="/project_rendering_3d/" className="project_page_text_link project_title">3d Rendering</Link>
             <hr></hr>
-            <p className="project_text">3d Rendering projects used primarily in advertising and logo design.</p>
+            <p className="project_text">A collection of 3d Rendering projects used primarily in advertising and logo design.</p>
             <ul className="project_tag">
                 <li>Architectural Modelling</li>
                 <li>Logo Design</li>
@@ -141,7 +141,7 @@ const Projects = () => {
         <div className="project_text_wrapper" >
         <Link to="/project_telford_paints/" className="project_page_text_link project_title">Telford Paints</Link>
             <hr></hr>
-            <p className="project_text">A set of branding materials, logo and stationary based around a central icon for a paint firm.</p>
+            <p className="project_text">A set of branding materials, logo and stationary based around a central logo for a paint firm.</p>
             <ul className="project_tag">
                 <li>Logo Design</li>
                 <li>Branding</li>

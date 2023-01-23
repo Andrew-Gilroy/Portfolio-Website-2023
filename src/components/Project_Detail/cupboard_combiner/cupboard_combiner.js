@@ -48,7 +48,7 @@ return (
                 <h2 className="project_details_subheading">Project Summary</h2>
                 <hr></hr>
                 <p className="project_details_body_text">
-                Cupboard Combiner is a react.js web app that generates random meals using your cupboard leftovers.
+                Cupboard Combiner is a react.js web app that generates random meals based on the contents of your cupboard.
                 </p>
                 <a href="https://andrew-gilroy.github.io/CupboardCombiner/"  target="_blank">
                     <button className="project_details_submit_button">LIVE DEMO</button>

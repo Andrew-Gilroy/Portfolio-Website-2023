@@ -25,7 +25,7 @@ const Contact = () => (
             <form method="post" action="https://formspree.io/xvoaveko" id="my_form">
                 <input className="form_input" name="name" type="text" maxLength="255" placeholder="name"></input>
                 <input className="form_input" name="_replyto" type="email" maxLength="255" placeholder="email"></input>
-                <textarea id="text_area" name="message" placeholder="enter your message here.."></textarea>
+                <textarea id="text_area" name="message" placeholder="Please enter your message here.."></textarea>
                 <input id="submit_button" type="submit" value="Send"></input>
                 <div class="g-recaptcha" data-sitekey="6Lew1dcUAAAAAA0v7TY9rjGvyVQA5AZiHhAce9hO"></div>
             </form>

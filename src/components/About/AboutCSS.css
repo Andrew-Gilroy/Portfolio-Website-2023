@@ -286,10 +286,10 @@
     }
 
     .about_paragraph_list_icon {
-        width: 3.5rem;
-        height: 3.5rem;
-        color: #fe3b1f;
-        margin: 0.3rem 1rem 0 10%;
+        width: 2.0rem;
+        height: 2.0rem;
+        //margin: 0.3rem 1rem 0 10%;
+        vertical-align: -0.7rem;
     }
 
     .svg_icons_wrapper {
@@ -374,10 +374,10 @@
     }
 
     .about_paragraph_list_icon {
-        width: 3.5rem;
-        height: 3.5rem;
-        color: #fe3b1f;
-        margin: 0.3rem 1rem 0 10%;
+        width: 2.0rem;
+        height: 2.0rem;
+        //margin: 0.3rem 1rem 0 10%;
+        vertical-align: -0.7rem;
         
     }
 

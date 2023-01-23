@@ -35,7 +35,7 @@ return (
                 <img src={other_projects_image_1} alt="Maarcfit" className="project_details_image_other_projects--fullWidth box_shadow"/>
                 <h2 class="project_details_subheading">Maarcfit</h2>
                 <hr></hr>
-                <p className="project_details_body_text">A young instagram influencer commissioned this logo for his health and fitness brand - Maarcfit. The basis of this logo came from his personal barbell tattoo.</p>
+                <p className="project_details_body_text">An instagram influencer commissioned this logo for his health and fitness brand - Maarcfit. The basis of this logo came from his personal barbell tattoo.</p>
             </div>
             {/*<!--end of text wrapper-->*/}
         </div>{/*<!--END OF ROW-->*/}
@@ -45,7 +45,7 @@ return (
                 <img src={other_projects_image_2} alt="The Kraken" className="project_details_image_other_projects--fullWidth box_shadow"/>
                 <h2 class="project_details_subheading">The Kraken</h2>
                 <hr></hr>
-                <p className="project_details_body_text">My reference for this design came from an old octopus engraving found in a manual of sea monsters. I used illustrator to draw out my own version with some depth effects and lighting to make the design appear 20,000 leagues below the sea.</p>
+                <p className="project_details_body_text">My reference for this design came from an octopus engraving found in an old manual of sea monsters. I used illustrator to create my own version with some depth effects and lighting to make the design appear 20,000 leagues below the sea.</p>
             </div>
             {/*<!--end of text wrapper-->*/}
         </div>{/*<!--END OF ROW-->*/}        
@@ -85,7 +85,7 @@ return (
                 <img src={other_projects_image_3} alt="Disco Beat" className="project_details_image_other_projects--fullWidth box_shadow"/>
                 <h2 class="project_details_subheading">Disco Beat</h2>
                 <hr></hr>
-                <p className="project_details_body_text">Harking back to the glorious days of the 90's cd cover (looking at you NOW 24!) I recreated the effect using Photoshop's 3D text editor to give the design more visual impact.</p>
+                <p className="project_details_body_text">Harking back to the glorious days of the 90's cd cover (here's looking at you NOW 24!) I recreated the effect using Photoshop's 3D text editor to give the design more visual impact.</p>
             </div>
             {/*<!--end of text wrapper-->*/}
         </div>{/*<!--END OF ROW-->*/}        

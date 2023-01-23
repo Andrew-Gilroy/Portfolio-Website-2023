@@ -36,7 +36,7 @@ const About = () => {
             <div className="about_text_wrapper">
                 <h2 className="about_title">ABOUT</h2>
                 <hr id="aboutHR"></hr>
-                <p className="about_text">I am a creative design professional currently based in Glasgow. I have over 5 years of design and development experience across a broad spectrum of competencies:</p>
+                <p className="about_text">Hello and welcome to my portfolio site! I am a creative design professional currently based in Glasgow. I have over 5 years of design and development experience across a broad spectrum of competencies and technologies:</p>
                 <ul className="about_paragraph_list">
                 <FontAwesomeIcon icon="fa-brands fa-buysellads" />
                     <li><FontAwesomeIcon icon={faPencilAlt} className="about_paragraph_list_icon"/><h3 className="about_paragraph_list_text">Logo Design &amp; Branding</h3></li>
@@ -48,9 +48,9 @@ const About = () => {
                     <li><FontAwesomeIcon icon={faBuysellads} className="about_paragraph_list_icon"/><h3 className="about_paragraph_list_text">Adobe Creative Cloud</h3></li>
                     <li><FontAwesomeIcon icon={faCameraRetro} className="about_paragraph_list_icon"/><h3 className="about_paragraph_list_text">Digital Photography</h3></li>
                 </ul>
-                <p className="about_text">I am also a recent graduate with a BSc in Digital Technology &amp; Design with a distinction pass. Here I gained invaluable experience working in a remote agile environment with cross functional teams. I also project managed several of the teams and helped deliver three major projects.</p>
+                <p className="about_text">In 2018 graduated with a BSc in Digital Technology &amp; Design with a distinction pass. Where I gained invaluable experience working in a remote agile environment with cross functional teams. I also project managed several of these teams which helped deliver three major projects.</p>
                 <div className="svg_icons_wrapper">
-                    {/* <StaticImage src="../../images/svgicons/photoshop-cc.svg" alt="Adobe Photoshop" title="Adobe Photoshop" className="svg_icon" height={55}/>*/}
+                    {/*<StaticImage src="../../images/svgicons/photoshop-cc.svg" alt="Adobe Photoshop" title="Adobe Photoshop" className="svg_icon" height={55}/>*/}
                     {/*<StaticImage src="../../images/svgicons/adobe-illustrator-cc.svg" alt="Adobe Illustrator" title="Adobe Illustrator" className="svg_icon" height={55}/>*/}
                     {/*<StaticImage src="../../images/svgicons/indesign-cc.svg" alt="Adobe Indesign" title="Adobe Indesign" className="svg_icon"height={55}/>*/}
                     {/*<StaticImage src="../../images/svgicons/adobe-xd.svg" alt="Adobe Xd" title="Adobe Xd" className="svg_icon"height={55}/>*/}
