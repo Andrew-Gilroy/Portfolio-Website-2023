@@ -64,7 +64,8 @@
 .project_hero_image_wrapper {
     width: 100%;
     height: 45vh;
-    background: radial-gradient(circle, #F2F2F2 0%, rgba(254,59,31,1) 15%, rgba(254,59,31,1) 75%, #F2F2F2 100%);
+    /*background: radial-gradient(circle, #F2F2F2 0%, rgba(254,59,31,1) 15%, rgba(254,59,31,1) 75%, #F2F2F2 100%);*/
+    background: radial-gradient(circle, rgba(254,59,31,1) 75%, #F2F2F2 100%);
     overflow: hidden;
     display: flex;
     justify-content: center;

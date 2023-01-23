@@ -36,7 +36,7 @@ const About = () => {
             <div className="about_text_wrapper">
                 <h2 className="about_title">ABOUT</h2>
                 <hr id="aboutHR"></hr>
-                <p className="about_text">Hello and welcome to my portfolio site! I am a creative design professional currently based in Glasgow. I have over 5 years of design and development experience across a broad spectrum of competencies and technologies:</p>
+                <p className="about_text">Hello and welcome to my portfolio website. &#128522; <br/> I am a creative design professional based in Glasgow, Scotland. I have over 5 years of design and development experience across a broad spectrum of competencies and technologies:</p>
                 <ul className="about_paragraph_list">
                 <FontAwesomeIcon icon="fa-brands fa-buysellads" />
                     <li><FontAwesomeIcon icon={faPencilAlt} className="about_paragraph_list_icon"/><h3 className="about_paragraph_list_text">Logo Design &amp; Branding</h3></li>
@@ -48,7 +48,9 @@ const About = () => {
                     <li><FontAwesomeIcon icon={faBuysellads} className="about_paragraph_list_icon"/><h3 className="about_paragraph_list_text">Adobe Creative Cloud</h3></li>
                     <li><FontAwesomeIcon icon={faCameraRetro} className="about_paragraph_list_icon"/><h3 className="about_paragraph_list_text">Digital Photography</h3></li>
                 </ul>
-                <p className="about_text">In 2018 graduated with a BSc in Digital Technology &amp; Design with a distinction pass. Where I gained invaluable experience working in a remote agile environment with cross functional teams. I also project managed several of these teams which helped deliver three major projects.</p>
+                {/* <p className="about_text">In 2018 I completed a BSc in Digital Technology &amp; Design with a distinction pass. As a result I gained invaluable experience working in a remote agile environment with cross functional teams. I also project managed several of these teams which delivered three major projects.</p> */}
+                <p className="about_text">In 2018 I completed a BSc in Digital Technology &amp; Design with a distinction pass. After graduation I relocated to Barcelona where I worked as a junior programer/technical support with Google Maps for over two years.</p>
+                {/* <p className="about_text">I have recently moved back to Glasgow to seek a new challenge and to work on my tan.</p> */}
                 <div className="svg_icons_wrapper">
                     {/*<StaticImage src="../../images/svgicons/photoshop-cc.svg" alt="Adobe Photoshop" title="Adobe Photoshop" className="svg_icon" height={55}/>*/}
                     {/*<StaticImage src="../../images/svgicons/adobe-illustrator-cc.svg" alt="Adobe Illustrator" title="Adobe Illustrator" className="svg_icon" height={55}/>*/}
@@ -68,7 +70,7 @@ const About = () => {
                     <img src={blenderSVG} alt="Blender" title="Blender" className="svg_icon"/>
                 </div>
                 <div className="svg_icons_wrapper-webdev">
-                    {/* {/* <StaticImage src="../../images/svgicons/html5.svg" alt="Html" title="Html" className="svg_icon" height={55}/> */}
+                    {/* <StaticImage src="../../images/svgicons/html5.svg" alt="Html" title="Html" className="svg_icon" height={55}/> */}
                     {/* <StaticImage src="../../images/svgicons/css.svg" alt="CSS" title="CSS" className="svg_icon" height={55}/> */}
                     {/* <StaticImage src="../../images/svgicons/javascript.svg" alt="Javascript" title="Javascript" className="svg_icon" height={55}/> */}
                     {/* <StaticImage src="../../images/svgicons/npm.svg" alt="NPM" title="NPM" className="svg_icon" height={55}/> */}
@@ -77,9 +79,9 @@ const About = () => {
                     <img src={htmlSVG} alt="HTML" title="HTML" className="svg_icon"/>
                     <img src={cssSVG} alt="CSS" title="CSS" className="svg_icon"/>
                     <img src={javascriptSVG} alt="JavaScript" title="JavaScript" className="svg_icon"/>
-                    <img src={googleMaps} alt="Google Maps" title="Google Maps" className="svg_icon"/>
                     <img src={reactSVG} alt="React.js" title="React.js" className="svg_icon"/>
-                    <img src={gatsbySVG} alt="Gatsby" title="Gatsby" className="svg_icon"/>
+                    <img src={gatsbySVG} alt="Gatsby.js" title="Gatsby.js" className="svg_icon"/>
+                    <img src={googleMaps} alt="Google Maps" title="Google Maps" className="svg_icon"/>
                 </div>
             </div>
             {/* <!--end of aboutTextWrapper-->}
