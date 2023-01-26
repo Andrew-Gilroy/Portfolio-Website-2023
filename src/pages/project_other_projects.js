@@ -17,7 +17,6 @@ const Project_Other_Projects = () => (
     <Layout pageTitle="Other Projects"/>
     <Seo title="Other Projects" />
     <Other/>
-   
     <Footer/>
   </>
 )

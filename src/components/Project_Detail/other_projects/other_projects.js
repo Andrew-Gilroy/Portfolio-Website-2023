@@ -1,5 +1,5 @@
 import React from 'react';
-import { StaticImage } from "gatsby-plugin-image";
+//import { StaticImage } from "gatsby-plugin-image";
 //import { useStaticQuery, graphql } from "gatsby";
 
 //CSS
@@ -62,7 +62,7 @@ return (
         <div class="project_details_flex_col">
             <div class="project_details_text_wrapper ">
                 {/* <StaticImage src="../../../images/other_projects/other_projects_6.png" alt="Grant Me Safety" className="project_details_image_other_projects--fullWidth box_shadow"/> */}
-                <img src={other_projects_image_6} alt="The People's Republic of Cork" className="project_details_image_other_projects--fullWidth box_shadow"/>
+                <img src={other_projects_image_6} alt="Grant Me Safety" className="project_details_image_other_projects--fullWidth box_shadow"/>
                 <h2 class="project_details_subheading">Grant Me Safety</h2>
                 <hr></hr>
                 <p className="project_details_body_text">Grant Me Safety is a powerful expose film highlighting the conditions at a refugee camp in Calais, France. I was commissioned to create a poster and web banners for the film premiere at the Royal Concert Hall in Nottingham.</p>

@@ -102,7 +102,6 @@ const Layout = ({ children, pageTitle }) => {
             </div>
             {/*mobile overlay menu via hamburger*/}
             <div id="myNav" className="overlay">
-                {/* <i className="fas fa-times closebtn" onClick={closeNav()}></i> */}
                 <FontAwesomeIcon icon={faTimes} className="closebtn" onClick={closeNav}/>
                 <div className="overlay-content">
                     <a href="#about" className="nav_overlay_link" onClick={closeNav}>about</a>
@@ -141,7 +140,6 @@ const Layout = ({ children, pageTitle }) => {
                 {/* Modal Caption (Image Text) */}
                 <div id="caption"></div>
             </div>
-          {/* <div className="thetop"></div> */}
           <div id="scrolltop">
               <AnchorLink href='#home'>
                   <div className="scroll">
